@@ -2,7 +2,7 @@ name: Push Source Files to Applanga
 on:
   push:
     branches:
-      - main
+      - draft
     paths:
       - en.json
   workflow_dispatch:
